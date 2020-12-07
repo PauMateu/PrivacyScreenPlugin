@@ -1,6 +1,5 @@
 
-package com.ourcodeworld.plugins.preventscreenshots;
-
+package org.devgeeks.privacyscreen;
 import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
