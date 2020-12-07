@@ -4,8 +4,8 @@
 	<name>PrivacyScreenPlugin</name>
 	<description>Secures your app from displaying a screenshot in task switchers under Android and iOS. Keeps sensitive information private.</description>
 	<license>MIT</license>
-  <asset src="www/privacyScreenPlugin.js" target="js/privacyScreenPlugin.js"/>
-  <js-module src="www/privacyScreenPlugin.js" name="privacyScreenPlugin">
+  <asset src="www/PrivacyScreenPlugin.js" target="js/PrivacyScreenPlugin.js"/>
+  <js-module src="www/PrivacyScreenPlugin.js" name="PrivacyScreenPlugin">
       <clobbers target="privacyScreenPlugin" />
   </js-module>
 	
