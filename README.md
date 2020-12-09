@@ -22,7 +22,7 @@ For Cordova 3.x.x:
 
 Usage:
 ------
-```
+```js
 var success = function(){
     // Do something on success
 };
