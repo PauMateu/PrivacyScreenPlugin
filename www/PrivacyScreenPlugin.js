@@ -19,7 +19,7 @@
               callFunctionIfExists(success);
           }, function(err){
               callFunctionIfExists(error);
-          }, "PrivacyScreenPulgin", "enable", []);
+          }, "PrivacyScreenPlugin", "enable", []);
       };
 
       core.disable = function(success,error){
@@ -28,7 +28,7 @@
               callFunctionIfExists(success);
           }, function(err){
               callFunctionIfExists(error);
-          }, "PrivacyScreenPulgin", "disable", []);
+          }, "PrivacyScreenPlugin", "disable", []);
       };
 
       core.isEnabled = function(){

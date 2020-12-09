@@ -11,11 +11,11 @@ version="0.3.1">
   <engines>
       <engine name="cordova" version=">=3.4.0"/>
   </engines>
-  
+
   <asset src="www/PrivacyScreenPlugin.js" target="js/PrivacyScreenPlugin.js"/>
 
   <js-module src="www/PrivacyScreenPlugin.js" name="PrivacyScreenPlugin">
-      <clobbers target="PrivacyScreenPulgin" />
+      <clobbers target="PrivacyScreenPlugin" />
   </js-module>
 	
   <platform name="android">
