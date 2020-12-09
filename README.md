@@ -1,7 +1,7 @@
-### NOTE: This plugin is NOT being actively maintained. I no longer work on Cordova/PhoneGap plugins and it is essentially abandonware. Please feel free to fork it and update it if you need to.
 
 PrivacyScreenPlugin
 ==================
+Plugin modified to fit the criteria of SocialLabs S.L corp.
 
 Both iOS (as of iOS 7) and Android have app switchers that display a screenshot of your app.
 
@@ -22,10 +22,26 @@ For Cordova 3.x.x:
 
 Usage:
 ------
+```
+var success = function(){
+    // Do something on success
+};
 
-This plugin exposes no interface, it simply sets your app to be private. You don't need to do anything except install the plugin.
+var error = function(msg){
+    // Do something on error
+};
 
-Test this plugin on a real device because the iOS simulator (7.1 at least) does a poor job hiding your app.
+PrivacyScreenPlugin.enable(success,error);
+
+// Or
+
+PrivacyScreenPlugin.enable(function(s){
+    console.info("The screenshots are ALLOWED again >:( ");
+},function(e){
+    // Oops ...
+    console.error(e);
+});
+```
 
 ## License
 
